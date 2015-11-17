@@ -16,7 +16,7 @@ _Even though I shipped it with my app, I still need to invest the time to set th
 It's just an opinion, but this is a crucial difference.
   
 + __Ready For Contributors:__<br />
-Basic additions to `CGRect` and other added to show contributors the way! PRs welcome! _(I certainly will be submitting some throughout my career)_
+Basic additions to `CGRect` and other structs added to show contributors the way! PRs welcome! _(I certainly will be submitting some throughout my career)_
 
 + __Full Test Coverage:__<br />
 This library requires full test coverage in order to eliminate human error as much as possible.

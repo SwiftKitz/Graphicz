@@ -1,5 +1,5 @@
 
-# Graphicz
+# Graphicz :art:
 
 ![Version](https://img.shields.io/badge/version-prerelease-orange.svg)
 [![Travis CI](https://travis-ci.org/SwiftKitz/Graphicz.svg?branch=master)](https://travis-ci.org/SwiftKitz/Graphicz)

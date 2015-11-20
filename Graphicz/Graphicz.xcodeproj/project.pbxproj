@@ -909,7 +909,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.kitz.Graphicz-ios";
 				PRODUCT_NAME = Graphicz;
-				SDKROOT = iphoneos;
+				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -961,7 +961,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.kitz.Graphicz-ios";
 				PRODUCT_NAME = Graphicz;
-				SDKROOT = iphoneos;
+				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1255,6 +1255,7 @@
 				8214D11B1BFAEB1D00218943 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8214D12D1BFAF83B00218943 /* Build configuration list for PBXNativeTarget "Graphicz-osx" */ = {
 			isa = XCConfigurationList;
@@ -1290,6 +1291,7 @@
 				8214D1581BFAF90900218943 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8214D1661BFB020700218943 /* Build configuration list for PBXNativeTarget "GraphiczTests-osx" */ = {
 			isa = XCConfigurationList;
@@ -1298,6 +1300,7 @@
 				8214D1681BFB020700218943 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8214D1721BFB021700218943 /* Build configuration list for PBXNativeTarget "GraphiczTests-tvos" */ = {
 			isa = XCConfigurationList;
@@ -1306,6 +1309,7 @@
 				8214D1741BFB021700218943 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -3,7 +3,7 @@ import UIKit
 import Graphicz
 
 
-//: # Graphicz
+//: # Graphicz 🎨
 //: ### Light-weight, operator-overloading-free complements to CoreGraphics
 
 //: ## Features

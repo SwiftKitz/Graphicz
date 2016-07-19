@@ -24,6 +24,12 @@ class CGVectorTests: XCTestCase {
         XCTAssertEqualWithAccuracy(vector.magnitude, 50, accuracy: accuracy)
     }
     
+    func testMagnitudeSquared() {
+        
+        let vector = CGVector(dx: 30, dy: 40)
+        XCTAssertEqualWithAccuracy(vector.magnitudeSquared, 2500, accuracy: accuracy)
+    }
+    
     func testAngle() {
         
         let vector0 = CGVector(dx: 0, dy: 0)

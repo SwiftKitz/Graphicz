@@ -22,6 +22,10 @@ public extension CGVector {
     public var angle: CGFloat {
         return atan2(dy, dx)
     }
+    
+    public var magnitudeSquared: CGFloat {
+        return dx*dx + dy*dy
+    }
 }
 
 

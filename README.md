@@ -58,6 +58,7 @@ __Convenient properties:__
 let vector = CGVector(dx: -5, dy: 0)
 vector.angle        // π
 vector.magnitude    // 5
+vector.magnitudeSquared  // 25
 ```
 
 __Convenient initializers:__

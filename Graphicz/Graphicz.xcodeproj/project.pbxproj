@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		541DA9231D46651500608C0C /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541DA9221D46651500608C0C /* CGPoint.swift */; };
+		541DA9241D46651500608C0C /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541DA9221D46651500608C0C /* CGPoint.swift */; };
+		541DA9251D46651500608C0C /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541DA9221D46651500608C0C /* CGPoint.swift */; };
+		541DA9261D46651500608C0C /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541DA9221D46651500608C0C /* CGPoint.swift */; };
+		541DA9281D4666D900608C0C /* CGPointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541DA9271D4666D900608C0C /* CGPointTests.swift */; };
+		541DA9291D4666D900608C0C /* CGPointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541DA9271D4666D900608C0C /* CGPointTests.swift */; };
+		541DA92A1D4666D900608C0C /* CGPointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541DA9271D4666D900608C0C /* CGPointTests.swift */; };
 		8214D11E1BFAECB200218943 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214D11D1BFAECB200218943 /* CGRect.swift */; };
 		8214D1251BFAF63600218943 /* CGVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214D1241BFAF63600218943 /* CGVector.swift */; };
 		8214D1281BFAF83B00218943 /* CGVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214D1241BFAF63600218943 /* CGVector.swift */; };
@@ -49,6 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		541DA9221D46651500608C0C /* CGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
+		541DA9271D4666D900608C0C /* CGPointTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointTests.swift; sourceTree = "<group>"; };
 		8214D1131BFAEB1D00218943 /* Graphicz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Graphicz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8214D1181BFAEB1D00218943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8214D11D1BFAECB200218943 /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
@@ -155,6 +164,7 @@
 			children = (
 				8214D11D1BFAECB200218943 /* CGRect.swift */,
 				8214D1241BFAF63600218943 /* CGVector.swift */,
+				541DA9221D46651500608C0C /* CGPoint.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -164,6 +174,7 @@
 			children = (
 				8214D1501BFAF90900218943 /* CGRectTests.swift */,
 				8214D15B1BFAFD9500218943 /* CGVectorTests.swift */,
+				541DA9271D4666D900608C0C /* CGPointTests.swift */,
 				8214D1521BFAF90900218943 /* Info.plist */,
 			);
 			path = GraphiczTests;
@@ -336,7 +347,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0730;
 				TargetAttributes = {
 					8214D1121BFAEB1D00218943 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -433,6 +444,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8214D1251BFAF63600218943 /* CGVector.swift in Sources */,
+				541DA9231D46651500608C0C /* CGPoint.swift in Sources */,
 				8214D11E1BFAECB200218943 /* CGRect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,6 +454,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8214D1281BFAF83B00218943 /* CGVector.swift in Sources */,
+				541DA9241D46651500608C0C /* CGPoint.swift in Sources */,
 				8214D1291BFAF83B00218943 /* CGRect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,6 +464,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8214D1341BFAF83F00218943 /* CGVector.swift in Sources */,
+				541DA9251D46651500608C0C /* CGPoint.swift in Sources */,
 				8214D1351BFAF83F00218943 /* CGRect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +474,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8214D1401BFAF84100218943 /* CGVector.swift in Sources */,
+				541DA9261D46651500608C0C /* CGPoint.swift in Sources */,
 				8214D1411BFAF84100218943 /* CGRect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,6 +484,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8214D15C1BFAFD9500218943 /* CGVectorTests.swift in Sources */,
+				541DA9281D4666D900608C0C /* CGPointTests.swift in Sources */,
 				8214D1511BFAF90900218943 /* CGRectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,6 +494,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8214D1751BFB023B00218943 /* CGRectTests.swift in Sources */,
+				541DA9291D4666D900608C0C /* CGPointTests.swift in Sources */,
 				8214D1761BFB023B00218943 /* CGVectorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,6 +504,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8214D1771BFB023E00218943 /* CGRectTests.swift in Sources */,
+				541DA92A1D4666D900608C0C /* CGPointTests.swift in Sources */,
 				8214D1781BFB023F00218943 /* CGVectorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -515,6 +533,8 @@
 		8214D10C1BFAEAEF00218943 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};
@@ -653,6 +673,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -712,6 +733,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";

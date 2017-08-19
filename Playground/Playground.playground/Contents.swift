@@ -34,6 +34,6 @@ vector.magnitude    // 5
 
 //: Convenient initializers
 
-let unitVector = CGVector(angle: CGFloat(M_PI_2))
+let unitVector = CGVector(angle: .pi/2)
 unitVector.dx   // 0
 unitVector.dy   // 1

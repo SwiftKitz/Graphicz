@@ -21,28 +21,28 @@ class CGVectorTests: XCTestCase {
     func testMagnitude() {
         
         let vector = CGVector(dx: 30, dy: 40)
-        XCTAssertEqualWithAccuracy(vector.magnitude, 50, accuracy: accuracy)
+        XCTAssertEqual(vector.magnitude, 50, accuracy: accuracy)
     }
     
     func testMagnitudeSquared() {
         
         let vector = CGVector(dx: 30, dy: 40)
-        XCTAssertEqualWithAccuracy(vector.magnitudeSquared, 2500, accuracy: accuracy)
+        XCTAssertEqual(vector.magnitudeSquared, 2500, accuracy: accuracy)
     }
     
     func testAngle() {
         
         let vector0 = CGVector(dx: 0, dy: 0)
-        XCTAssertEqualWithAccuracy(vector0.angle, 0, accuracy: accuracy)
+        XCTAssertEqual(vector0.angle, 0, accuracy: accuracy)
         
         let vector45 = CGVector(dx: 30, dy: 30)
-        XCTAssertEqualWithAccuracy(vector45.angle, CGFloat(M_PI_4), accuracy: accuracy)
+        XCTAssertEqual(vector45.angle, .pi/4, accuracy: accuracy)
 
         let vector90 = CGVector(dx: 0, dy: 20)
-        XCTAssertEqualWithAccuracy(vector90.angle, CGFloat(M_PI_2), accuracy: accuracy)
+        XCTAssertEqual(vector90.angle, .pi/2, accuracy: accuracy)
 
         let vector180 = CGVector(dx: -30, dy: 0)
-        XCTAssertEqualWithAccuracy(vector180.angle, CGFloat(M_PI), accuracy: accuracy)
+        XCTAssertEqual(vector180.angle, .pi, accuracy: accuracy)
     }
     
     
@@ -53,16 +53,16 @@ class CGVectorTests: XCTestCase {
     func testInitAngle() {
         
         let vector0 = CGVector(angle: 0)
-        XCTAssertEqualWithAccuracy(vector0.dx, 1.0, accuracy: accuracy)
-        XCTAssertEqualWithAccuracy(vector0.dy, 0.0, accuracy: accuracy)
+        XCTAssertEqual(vector0.dx, 1.0, accuracy: accuracy)
+        XCTAssertEqual(vector0.dy, 0.0, accuracy: accuracy)
         
-        let vector90 = CGVector(angle: CGFloat(M_PI_2))
-        XCTAssertEqualWithAccuracy(vector90.dx, 0.0, accuracy: accuracy)
-        XCTAssertEqualWithAccuracy(vector90.dy, 1.0, accuracy: accuracy)
+        let vector90 = CGVector(angle: .pi/2)
+        XCTAssertEqual(vector90.dx, 0.0, accuracy: accuracy)
+        XCTAssertEqual(vector90.dy, 1.0, accuracy: accuracy)
         
-        let vector180 = CGVector(angle: CGFloat(M_PI))
-        XCTAssertEqualWithAccuracy(vector180.dx, -1, accuracy: accuracy)
-        XCTAssertEqualWithAccuracy(vector180.dy, 0, accuracy: accuracy)
+        let vector180 = CGVector(angle: .pi)
+        XCTAssertEqual(vector180.dx, -1, accuracy: accuracy)
+        XCTAssertEqual(vector180.dy, 0, accuracy: accuracy)
     }
 }
 

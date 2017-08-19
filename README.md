@@ -1,12 +1,20 @@
+<h1 align="center">
+  Graphicz :art:
+<h6 align="center">
+  Light-weight, operator-overloading-free complements to CoreGraphics!
+</h6>
+</h1>
 
-# Graphicz :art:
-
-![Version](https://img.shields.io/badge/version-prerelease-orange.svg)
-[![Travis CI](https://travis-ci.org/SwiftKitz/Graphicz.svg?branch=master)](https://travis-ci.org/SwiftKitz/Graphicz)
-![Swift](https://img.shields.io/badge/swift-4.0-blue.svg)
-![Platforms](https://img.shields.io/badge/platform-ios%20%7C%20osx%20%7C%20watchos%20%7C%20tvos-lightgrey.svg)
-
-Light-weight, operator-overloading-free complements to CoreGraphics!
+<p align="center">
+  <img alt="Version" src="https://img.shields.io/badge/version-prerelease-orange.svg" />
+  <a alt="Travis CI" href="https://travis-ci.org/SwiftKitz/Graphicz.svg?branch=master)](https://travis-ci.org/SwiftKitz/Graphicz">
+  </a>
+  <img alt="Swift" src="https://img.shields.io/badge/swift-4.0-blue.svg" />
+  <img alt="Platforms" src="https://img.shields.io/badge/platform-ios%20%7C%20osx%20%7C%20watchos%20%7C%20tvos-lightgrey.svg" />
+  <a alt="Carthage Compatible" href="https://github.com/SwiftKitz/Graphicz#carthage">
+    <img alt="Carthage" src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" />
+  </a>
+</p>
 
 _Even though I shipped it with my app, I still need to invest the time to set this up, and finalize the API. Contributors welcome!_
 

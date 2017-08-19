@@ -140,9 +140,10 @@ class CGRectTests: XCTestCase {
     
     func testNegativeInsets() {
         
-        var rect = CGRect(x: -10, y: -10, width: 20, height: 20)
-        let newRect = rect.insetEdges(right: -5, left: -5)
-        rect.insetInPlace(dx: -5, dy: 0)
+        let rect = CGRect(x: -10, y: -10, width: 20, height: 20)
+        let newRect = rect.insetEdges(left: 0, right: 0)
+
+        rect.insetBy(dx: -5, dy: 0)
         
         XCTAssertEqual(rect, newRect)
     }

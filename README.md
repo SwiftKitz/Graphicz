@@ -3,7 +3,7 @@
 
 ![Version](https://img.shields.io/badge/version-prerelease-orange.svg)
 [![Travis CI](https://travis-ci.org/SwiftKitz/Graphicz.svg?branch=master)](https://travis-ci.org/SwiftKitz/Graphicz)
-![Swift](https://img.shields.io/badge/swift-2.1-blue.svg)
+![Swift](https://img.shields.io/badge/swift-4.0-blue.svg)
 ![Platforms](https://img.shields.io/badge/platform-ios%20%7C%20osx%20%7C%20watchos%20%7C%20tvos-lightgrey.svg)
 
 Light-weight, operator-overloading-free complements to CoreGraphics!
@@ -14,7 +14,7 @@ _Even though I shipped it with my app, I still need to invest the time to set th
 
 + __Operator Overloading Free:__<br />
 It's just an opinion, but this is a crucial difference.
-  
+
 + __Ready For Contributors:__<br />
 Basic additions to `CGRect` and other structs added to show contributors the way! PRs welcome! _(I certainly will be submitting some throughout my career)_
 
@@ -63,7 +63,7 @@ vector.magnitude    // 5
 __Convenient initializers:__
 
 ```swift
-let unitVector = CGVector(angle: CGFloat(M_PI_2))
+let unitVector = CGVector(angle: .pi/2)
 unitVector.dx   // 0
 unitVector.dy   // 1
 ```

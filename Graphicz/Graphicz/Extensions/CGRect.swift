@@ -32,7 +32,7 @@ public extension CGRect {
 public extension CGRect {
 
     /** update a single property: rect.update(y: 10) */
-    func update(x x: CGFloat? = nil, y: CGFloat? = nil, width: CGFloat? = nil, height: CGFloat? = nil) -> CGRect {
+    func update(x: CGFloat? = nil, y: CGFloat? = nil, width: CGFloat? = nil, height: CGFloat? = nil) -> CGRect {
         
         var rect = self
         rect.updateInPlace(x: x, y: y, width: width, height: height)
@@ -41,7 +41,7 @@ public extension CGRect {
     }
     
     /** update a single property: rect.update(y: 10) */
-    mutating func updateInPlace(x x: CGFloat? = nil, y: CGFloat? = nil, width: CGFloat? = nil, height: CGFloat? = nil) {
+    mutating func updateInPlace(x: CGFloat? = nil, y: CGFloat? = nil, width: CGFloat? = nil, height: CGFloat? = nil) {
         
         origin.x = x ?? origin.x
         origin.y = y ?? origin.y
@@ -51,7 +51,7 @@ public extension CGRect {
     }
     
     /** update a single property: rect.update(size: newSize) */
-    func update(origin origin: CGPoint? = nil, size: CGSize? = nil) -> CGRect {
+    func update(origin: CGPoint? = nil, size: CGSize? = nil) -> CGRect {
         
         var rect = self
         rect.updateInPlace(origin: origin, size: size)
@@ -60,7 +60,7 @@ public extension CGRect {
     }
     
     /** update a single property: rect.update(size: newSize) */
-    mutating func updateInPlace(origin origin: CGPoint? = nil, size: CGSize? = nil) {
+    mutating func updateInPlace(origin: CGPoint? = nil, size: CGSize? = nil) {
         
         self.origin = origin ?? self.origin
         self.size = size ?? self.size
@@ -74,7 +74,7 @@ public extension CGRect {
 public extension CGRect {
 
     /** inset edges, modifying origin and size as appropriate */
-    public mutating func insetEdgesInPlace(top top: CGFloat = 0, left: CGFloat = 0, bottom: CGFloat = 0, right: CGFloat = 0) {
+    public mutating func insetEdgesInPlace(top: CGFloat = 0, left: CGFloat = 0, bottom: CGFloat = 0, right: CGFloat = 0) {
         
         origin.x += left
         origin.y += top
@@ -84,7 +84,7 @@ public extension CGRect {
     }
     
     /** inset edges, modifying origin and size as appropriate */
-    public func insetEdges(top top: CGFloat = 0, left: CGFloat = 0, bottom: CGFloat = 0, right: CGFloat = 0) -> CGRect {
+    public func insetEdges(top: CGFloat = 0, left: CGFloat = 0, bottom: CGFloat = 0, right: CGFloat = 0) -> CGRect {
         
         var newRect = self
         newRect.insetEdgesInPlace(top: top, left: left, bottom: bottom, right: right)

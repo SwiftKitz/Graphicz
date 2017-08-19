@@ -82,7 +82,7 @@ Every once in a while, one might find themself writing layout code manually. Aut
 
 ## Author
 
-Mazyod ([@Mazyod](http://twitter.com/mazyod))
+Maz ([@Mazyod](http://twitter.com/mazyod))
 
 ## License
 
